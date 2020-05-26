@@ -1,15 +1,71 @@
 {
-    "policiesList": [
-        {
-            "id": 1,
-            "name": "Vishal",
-            "resource": {
-                "resource_id": "accounts",
-                "effect": "allow",
-                "actions": ["edit", "read"]
-            },
-            "type": "official",
-            "description": "Test Policy"
-        }
-    ]
+  "policiesList": [
+    {
+      "id": 0,
+      "name": "Admin Policy",
+      "resource": {
+        "resource_id": "accounts",
+        "effect": "allow",
+        "actions": [
+          "edit"
+        ]
+      },
+      "type": "official",
+      "description": "Test Policy One"
+    },
+    {
+      "id": 1,
+      "name": "Users Policy",
+      "resource": {
+        "resource_id": "accounts",
+        "effect": "allow",
+        "actions": [
+          "read"
+        ]
+      },
+      "type": "official",
+      "description": "Test Policy Second"
+    },
+    {
+      "id": 2,
+      "name": "Default Policy",
+      "resource": {
+        "resource_id": "accounts",
+        "effect": "allow",
+        "actions": [
+          "read"
+        ]
+      },
+      "type": "official",
+      "description": "Test Policy Third"
+    },
+    {
+      "id": 3,
+      "name": "Hybrid Policy",
+      "resource": {
+        "resource_id": "accounts",
+        "effect": "allow",
+        "actions": [
+          "read",
+          "edit"
+        ]
+      },
+      "type": "official",
+      "description": "Test Policy Third"
+    },
+    {
+      "id": 4,
+      "name": "Public Policy",
+      "resource": {
+        "resource_id": "accounts",
+        "effect": "allow",
+        "actions": [
+          "read",
+          "edit"
+        ]
+      },
+      "type": "official",
+      "description": "Test Policy Third"
+    }
+  ]
 }
