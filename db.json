@@ -1,0 +1,15 @@
+{
+    "policiesList": [
+        {
+            "id": 1,
+            "name": "Vishal",
+            "resource": {
+                "resource_id": "accounts",
+                "effect": "allow",
+                "actions": "["edit", "read"]"
+            },
+            "type": "official",
+            "description": "Test Policy"
+        }
+    ]
+}
