@@ -6,7 +6,7 @@
             "resource": {
                 "resource_id": "accounts",
                 "effect": "allow",
-                "actions": "["edit", "read"]"
+                "actions": ["edit", "read"]
             },
             "type": "official",
             "description": "Test Policy"
